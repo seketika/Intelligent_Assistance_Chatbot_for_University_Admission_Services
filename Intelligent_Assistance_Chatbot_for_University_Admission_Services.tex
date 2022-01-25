@@ -1,0 +1,156 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{url}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    %\date{}  
+    \setlength{\parindent}{1em} 
+\begin{document}
+\title{Intelligent Assistance Chatbot for University Admission Services\\
+{\footnotesize \textsuperscript{}}
+}
+
+\author{\IEEEauthorblockN{Siska Restu Anggraeny Iskandar}\IEEEauthorblockA{\textit{Magister Informatika } \\
+\textit{UIN Sunan Kalijaga}\\
+Yogyakarta, Indonesia\\
+18206050017@student.uin-suka.ac.id}
+
+\and
+\IEEEauthorblockN{Maria Ulfah Siregar}
+\IEEEauthorblockA{\textit{Magister Informatika } \\
+\textit{UIN Sunan Kalijaga}\\
+Yogyakarta, Indonesia\\
+maria.siregar@uin-suka.ac.id}
+
+}
+\maketitle
+\begin{abstract}
+Service system has been transforming since information technology requires and is evolving, especially in education. It is necessary to deliver outstanding services to make sure the prospective students are satisfied in higher student education admission. These prospective student’s fulfillment is not only from the education’s quality, it should be followed by the provision of consulting and excellent guidance service. This paper proposes the development of chatbots, implementation of chatbots and optimization of chatbots taken from various previous research literatures. Universities can further develop chatbots as intelligent assistants using this research for helping prospective students discover the important and necessary information and retrieve it at any time.
+\end{abstract}
+\begin{IEEEkeywords}
+Artificial Intelligence, Service, Chatbot, Sustainability
+\end{IEEEkeywords}
+
+\section{Introduction}
+Chatbots can play the role of virtual advisors using the concepts of \emph{automatic speech recognition systems}, machine learning, and artificial intelligence (AI)\cite{b1}. Rahman, Al Mamun and Islam in \cite{b1} also have presented a brief introduction about cloud-based chatbots technology along with chatbots programming and programming challenges in the current and future era of chatbots.
+The use of chatbots is now marked as a form of service provided by the company in maximizing good service for all users. As reported by the computer info page in 2019, several cloud-based chatbot services in Indonesia such as Bjtech as a vendor from (BNI, Coca-Cola), Vutura Chatbot Indonesia (Telkom University, Telkom Indonesia), Inmotion, Botika, Language.ai, Kata. ai and many others. Chatbots (also called “digital assistants”) can chat with users in a variety of ways including text-based entities, voice user interfaces, and embodied conversation entities \cite{b2}.
+
+Chatbot services are now noticed as one of the solutions in optimizing services for service or product users. It cannot be separated from the education sector such as universities. Universities need to deliver outstanding service to make sure the prospective students are satisfied. This service can be in the form of information needed by prospective students regarding registration information, tuition fees or for active students who need services and information directly related to their studies. The lack of optimal web-based services provided by universities related to responses to questions that arise or information needed by students indicates poor or less optimal services \cite{b3}.
+
+There have been many previous studies discussing chatbot-based artificial intelligence for instance, Elon University used AI to help the student to track their previous class or course and help students implement detail of their class's strategy \cite{b4}. By reaching out to the students when they have not finished the assignment as the deadline passed, Georgia State University reduced summer disbursement by more than 20\%\ with the development of Pounce. Pounce is a chatbot created by AdmitHub \cite{b5}. As stated in \cite{b6}, they found that pop-up chatbots are proficient in providing fast service for confused customers by embedding the pop-up chatbot to their website, the chat reference usage is escalated, user experience and satisfaction is improved. P.Hsu, J.Zaho, K.Liao., T.Liu and C.Wang in \cite{b7} build Allergy Bot to provides users with feeding options without unnecessary questioning. This chatbot recommends accessible menus at restaurants, make simple response tasks and increase the tempo for the questioners. There is also study that implemented a chat bot with a self-adaptive mechanism  \cite{b8} to interact with on-line shoppers for enhancing customer satisfaction and shopping experience. implementing a self-adaptive mechanism in the form of a chatbot that interacts with on-line shoppers greatly improves the customer and shopping experience. As previously stated in \cite{b9}, chatbot could give the information of different rates for car booking, make an order/reservation, and modify the pick-up location on existing reservations. Lasek and Jessa \cite{b10} found that hotels that use chatbots experience sales growth. Holotescu \cite{b11} found implementation of MOOCBuddy (a chatbot) provides on-line learners with storytelling interactions associated with knowledge that is available online. Also, Calvert in \cite{b12} mentioned that deployments chatbot to respond the questioner and have different advantages compared to human being, the advantages are chatbot cannot be weary, chatbot cannot be distracted with ridiculous questions, chatbot provides consistency of services, also the chatbot output is not decreasing time after time. 
+
+With all the advantages that produce by chat in various line of business, universities seem to need to implement a chatbot-based service information system. The use of this technology in university will provide the ability of the faculty and staffs to be more effective and efficient during the communication with prospective students and active students. With what being said above, this paper will discusses chatbot-based artificial intelligence for service optimization in universities.
+
+\section{Literature Review}
+\subsection{Artificial Intelligence}
+According to \cite{b13}, "Face-to-face communication allows user to interect with often complex services via massages or something they do every day ". There are limitations to using this type of technology because interactions can only be carried out to the knowledge of the user. For example, artificial intelligence technology can only answer direct questions such as, “When does registration start? How much is the registration fee?” then the Artificial Intelligence (AI) conversation can only respond with a basic answer or date.
+Next, the level of artificial intelligence connects the contextual aspects of conversation with the ability to interpret unstated user needs. By integrating user behavior, curriculum pace, and progress, AI can intervene (anticipate the need for intervention) and "push" the user to the next best course of action or refer the user to the next step \cite{b14}.
+
+Artificial Intelligence in the context of this research is a chatbot that is used to assist college admissions in maximizing services for students and prospective students. This AI level will help students keep pace towards graduation, complete required paperwork, and more. Chatbots can also benefit institutions by providing data that can be used for scheduling, program analysis, and other decision making to make institutions more successful.
+
+\subsection{Chatbot}
+Based on \cite{b15} chatbots is a chatting application designed with artificial intelligence to be able to answer simple or complete conversations. According to the type, chatbot could be used in the form of text and audio; in this research chatbot is the focus. The chatting application could give different responds towards the request or questions from the user. \cite{b16}
+
+According to \cite{b17} it is explained that chatbots is a computer program capable of having similar conversations with people. Chatbots often used for automate or optimize business processes. There are simple and complex chatbot types, the purpose is to exploit a wide spectrum of artificial intelligence. A simple bot is to handle simple orders or requests from the user. During the communication with the user, this algorithm gives a pre-programmed response to a given input as output. For instance, the question about the products or other information. In this research, the chatbot referred to is the university admission service.
+
+\subsection{PEAS (Performance, Environment, Actuator \&\ Sensor)}
+PEAS stands for Performance, Environment, Actuator and Sensor which is a full part of the agent. An agent is anything that is able to see, interpret and know its environment through sensors (Sensors) and act (acting) through the help of actuators \cite{b18}. Russell further classifies the nature of agents into three parts, 1) Rational as an agent that considered to act most correctly, 2) Autonomy which is an agent taking action to modify future perceptions to obtain information, last 3) reactive as an agent that conclude environmental aspects that hidden before taking selective action.
+
+\section{Research Methodology}
+This research uses a literature study approach, by taking samples of scientific papers that have been published. The author will present the findings and model recommendations from the chatbot that has been implemented in previous research. Sampling in this study by utilizing articles, papers published on the page \emph{Google Scholar}, then the paper is checked again on \emph{Scimago} to see the journal's achievement index. After the sample has been collected, the next step is to carry out library research and then analyze the chatbot adoption system at several universities that have implemented it and then take recommendations and conclusions.
+
+\section{Discussion}
+Research that reviews the optimization of service systems using chatbots in various business sectors has previously been carried out, for example \cite{b6}, evaluating the performance of pop-up chatbots inserted on medical website web pages. In reference \cite{b7}, designed a chatbot that provides food allergy information for restaurants. There is also \cite{b8} presenting a chatbot that acts as a store assistant that interacts with and recognizes customer personality traits based on search and shopping preferences. Negi, Joshie, Chalamallay and Subramaniam in \cite{b9} built a task-oriented system (chatbot) that enables human-machine conversations that respond to customer requests. Lasek and Jessa \cite{b10} compared the performance of chatbots on different hotel/guesthouse websites. Holotescu \cite{b11} examines the role of chatbots in enhancing the learning experience in massive open online courses (MOOCs). Calvert in \cite{b12} inspect the various uses of robots, including chatbots, in performing repetitive tasks such as responding to customer inquiries.
+The use of Chatbots at the university level is strongly suggested by several previous studies (e.g., Santoso \emph{et al}\cite{b19}; Almahari, Bell and Merhi \cite{b20};  Gbenga\cite{b20}; Chandra and Suyanto \cite{b21}; Patel, Parikh, Patel and Patel \cite{b23}; Le Hoang Shu \emph{et al}\cite{b24}; Hien, Cuong, Nam, Nhung and Thang \cite{b25}). Chatbots are able to optimize services and make users satisfied without having to wait for a response from employees as seen in Santoso \emph{et al}\cite{b19} and Chandra and Suyanto\cite{b22}. It was mention in other previous study that \emph{Artificial Intelligence} will generate more data to provide a clearer picture of the teaching and learning process, which allows more accurate information recommendations, and the use of AI can improve service quality \cite{b23}.
+
+According to study in \cite{b26}, the chatbot have many advantages, one of them is aims to help applicants enter university and be more effective, other than that chatbot also save time and resources for students and admissions staff. Moreover, it is proven that building a user-motivated chatbot has a positive effect on user satisfaction and technology adoption. This type of chatbot developed by \cite{b26} is to add support for bilingualism so that applicants can ask questions in English or Arabic, and the chatbot will respond according to the input language. Later, social cues were added to provide a human-like interaction with applicants. From \cite{b21}, the researchers found that by adopting chatbot-based artificial intelligence enable to decrease reception workload because a chatbot could respond basic information thereby, reducing the number of calls and letters that must be responded to. Adopting this solution will improving the quality and the service will be more efficient and real-time in the education area.
+
+
+\subsection{The Use of Artificial Intelligence Chatbots for Higher Education}
+Overall, the use of chatbots has now been widely adopted by various universities in the world such as Germany \cite{b26}, \cite{b19}, Poland \cite{b21}, Pakistan \cite{b28}, Nigeria \cite{b21} and at Georgia State University \cite{b29}, based on the results of a chatbot implementation review, overall application is made with the following conditions:
+\begin{itemize}
+\item When the applicants are off campus these features and functions can be performed at home. The ultimate goal of this feature is to give answers for most Frequently Asked Questions in the course of the admission phase.
+\item The feature is designed with the provision that an applicant can ask about information on various majors and facilities at the university.
+\item Questions asked by applicants when they are at the admission office, for example about required documents, scholarship, financial aid and of course tuition fees.
+\item In addition, chatbots are built with the ability to track details about applicants such as their name, nationality, type of high school and also chosen major. These details allow the applicants to get custom and personal tailored responses as opposed to letting them access or find the answer from the university web page.
+\item Prospective students are allowed to ask chatbot regarding admission tryouts before enrolling to the university. 
+\item The chatbot provides sample questions to applicants as well as the purpose and cost of the test.
+\item Chatbots are made capable of answering questions regarding available facilities and extracurricular activities available on the website.
+\item Chatbots can not only answer admission process questions, but also act as academic advisors to new applicants. It provides assistance to prospective new students by informing them about the various faculties and majors offered at the university, the courses taken in each department per semester, as well as the opportunities of each course taken.
+\item The chatbot was developed with the aim of helping prospective students with university admission inquiries in a timely, reliable and efficient manner so as to improve the existing system.\
+Services using chatbots are recommended not only to stop at services outside the campus, but also to be able to provide complete information to prospective students who directly visit the university, in this case making the chatbot able to pay attention to several features that must be added to the application, such as road directions, can be in the form of maps or maps. from each building or faculty in the university.
+\end{itemize}
+
+\subsection{Understanding PEAS in Artificial Intelligence}
+PEAS usually used to categorize similar agents together. The scope of the PEAS system consists of the environment, actuators and sensors of each agent. The highest performance agent is called a rational agent, namely an agent who considers all possibilities and chooses to take a very efficient action, for example taking a short path with high efficiency and low cost. In the Table 1, the PEAS method will be explained for University Admission Chatbot
+
+\begin{table}[ht]
+\caption{PEAS University Admission Chatbot}\centering
+\begin{tabular}{p{0.30\linewidth}| p{0.6\linewidth}} \hline
+\textbf{Agent}&Chatbot \\ \hline
+\textbf{Performance Measure}&Information about university, Questions and Answers \\ \hline
+\textbf{Environment}&University Admission, Student \\ \hline
+\textbf{Actuator}&Registration Information, Tuition Fees, Scholarship Information, Questions About University.\\ \hline
+\textbf{Sensor}&User Questions.\\ \hline
+\end{tabular}
+   \label{tab1}
+\end{table}
+
+From Table 1 it can be seen that University Chatbot has classified PEAS system criteria chatbot application as an agent, the performance measure is describing information related to universities by question and answer. The environment is the domain around the agent at all times, they are university admission  and Students. Meanwhile, the actuators are information about registration at university, scholarship information, tuition fee information, and other questions related to university admission. Lastly for the sector are user questions.
+
+\subsection{Design of University Chatbot}
+Chatbot that we suggest for university to answer questions regarding the college admissions process asked by prospective students and the parents of highschoolers. University Chatbot can answer questions written in many languages. Previously, applicants needed to open the university web page and find a way to eventually connect to the people at admission. They need to make time because the admission office has open hours. Therefore, University Chatbot has been equipped with an adequate amount of data and guidance in order to assist prospective students and parents of highschoolers through the admissions process.
+
+\section{Conclusion}
+This research recommended universities to adopt chatbot as one of service optimilazing strategy to prospective students and active students. Chatbot is marked as one of artificial intelligence to provide advantages in education sector, this can be seen from the usefulness that helps employees to reduce their workload. The chatbot was developed with the aim to assit prospective students about general inquiries related to timely admission to the university such as registration flow, fees, test schedules, scholarship programs, study program information and other forms of facilities or information. For active students chatbot could help general information related to payment requirements, student identity and status, graduation requirements and other forms of information.
+
+\section*{Author Contribution}
+Siska Iskandar and Annisa Dwi Oktavianita conceived of the presented idea.
+Maria Ulfah Siregar and Aulia Faqih Rifai supervised the project. 
+Siska and Annisa wrote the manuscript with support from Maria Ulfah Siregar and Aulia Faqih Rifai. All authors discussed the results and contributed to the final manuscript.
+
+\begin{thebibliography}{00}
+\bibitem{b1} A. M. Rahman, A. Al Mamun, and A. Islam, “Programming challenges of chatbot: Current and future prospective,” 5th IEEE Reg. 10 Humanit. Technol. Conf. 2017, R10-HTC 2017, vol. 2018-Janua, no. 5, pp. 75–78, 2018, doi: \url{10.1109/R10-HTC.2017.8288910}.
+\bibitem{b2}Harms, J. G., Kucherbaev, P., Bozzon, A., Houben, G. J, “Approaches for dialog management in conversational agents”. IEEE Internet Computing, 23(2), 13-22, 2018.
+\bibitem{b3}Toniuc, D., Groza, A, “Climebot: An argumentative agent for climate change”. In 2017 13th IEEE International Conference on Intelligent Computer Communication and Processing (ICCP) (pp. 63-70). IEEE, 2017.
+\bibitem{b4}Gardner, L, “How AI is infiltrating every corner of the campus”. The Chronicle of Higher Education, 8(04), 2018.
+\bibitem{b5}Nurshatayeva, A., Page, L. C., White, C. C., Gehlbach, H. (2021). Are Artificially Intelligent Conversational Chatbots Uniformly Effective in Reducing Summer Melt? Evidence from a Randomized Controlled Trial. Research in Higher Education, 62(3), 392-402.
+\bibitem{b6}Fan, S. C., Fought, R. L., Gahn, P. C, “Adding a Feature: Can a Pop-Up Chat Box Enhance Virtual Reference Services? Medical Reference Services Quarterly”,  36(3), 220- 228, 2017.
+\bibitem{b7}P. Hsu, J. Zhao, K. Liao, T. Liu, and C. Wang, “AllergyBot: A Chatbot technology intervention for young adults with food allergies Dining out,” Conf. Hum. Factors Comput. Syst. - Proc., vol. Part F1276, pp. 74–79, 2017, doi: \url{10.1145/3027063.3049270}.
+\bibitem{b8}A. Horzyk, S. Magierski, and G. Miklaszewski, “An Intelligent Internet Shop-Assistant Recognizing a Customer Personality for Improving Man-Machine Interactions,” Recent Adv. Intell. Inf. Syst., pp. 13–26, 2009.
+\bibitem{b9}S. Negi, S. Joshi, A. Chalamallay, and L. V. Subramaniam, “Automatically extracting dialog models from conversation transcripts,” Proc. - IEEE Int. Conf. Data Mining, ICDM, pp. 890–895, 2009, doi: \url{10.1109/ICDM.2009.113}.
+\bibitem{b10}S. Lasek, M., Jessa, “Chatbots for customer services on hotel websites,” Inf. Syst. Manag., vol. 2, no. 2, pp. 146–158, 2013.
+\bibitem{b11}C. Holotescu, “MOOCBuddy: a chatbot for personalized learning with MOOCs,” Rochi – Int. Conf. Human-Computer Interact., vol. 8, pp. 91–94, 2016, [Online]. Available: \url{www.matrixrom.ro}.
+\bibitem{b12}P. Calvert, “Robots, the Quiet Workers, Are You Ready to Take Over?,” Public Libr. Q., vol. 36, no. 2, pp. 167–172, 2017, doi: \url{10.1080/01616846.2017.1275787}.
+\bibitem{b13}A. and S. Cheston, “The AI-first student experience,” 2017. \url{https://er.educause.edu/articles/2017/6/the-ai-first-student-experience}.
+\bibitem{b14}M. Barret et al., “Using Artificial Intelligence to Enhance Educational Opportunities and Student Services in Higher Education.,” Inq. J. Virginia Community Coll., vol. 22, no. 1, p. 11, 2019.
+\bibitem{b15}B. A. Shawar and E. Atwell, “Using dialogue corpora to train a chatbot Bayan Abu Shawar School of Computing,” in Corpus Linguistics 2003 conference, 2003, pp. 681–690, [Online]. Available: \url{https://docs.oracle.com/es/solutions/learn-about-designing-chatbot/plan-your-chatbot-design1.html}.
+\bibitem{b16}D. Joyner, “Squeezing the limeade: Policies and workflows for scalable online degrees,” 2018, \url{doi: 10.1145/3231644.3231649}.
+\bibitem{b17}G. Molnar and Z. Szuts, “The Role of Chatbots in Formal Education,” SISY 2018 - IEEE 16th Int. Symp. Intell. Syst. Informatics, Proc., pp. 197–201, 2018, {doi: 10.1109/SISY.2018.8524609}.
+\bibitem{b18}S. J. R. and P. Norvig, “Artificial Intelligence A Modern Approach Second Edition,” Artif. Intell., pp. 183–227, 1996, [Online]. Available: \url{http://www.sciencedirect.com/science/article/pii/B9780121619640500091}.
+\bibitem{b19}H. Agus Santoso et al., “Dinus Intelligent Assistance (DINA) Chatbot for University Admission Services,” Proc. - 2018 Int. Semin. Appl. Technol. Inf. Commun. Creat. Technol. Hum. Life, iSemantic 2018, pp. 417–423, 2018, \url{doi: 10.1109/ISEMANTIC.2018.8549797}.
+\bibitem{b20}F. A. J. Almahri, D. Bell, and M. Merhi, “Understanding Student Acceptance and Use of Chatbots in the United Kingdom Universities: A Structural Equation Modelling Approach,” 2020 6th IEEE Int. Conf. Inf. Manag. ICIM 2020, pp. 284–288, 2020, doi:\url{10.1109/ICIM49319.2020.244712}.
+\bibitem{b21}H. O. Gbenga, Oluwatobi and T. Okedigba, “An Improved Rapid Response Model for University Admission Enquiry System Using Chatbot,” Int. J. Comput., vol. 38, no. 1, pp. 123–131, 2020, [Online]. Available:\url{https://www.researchgate.net/publication/342248071_An_Improved_Rapid_Response_Model_for_University_Admission_Enquiry_System_Using_Chatbot}.
+\bibitem{b22}Y. W. Chandra and S. Suyanto, “Indonesian chatbot of university admission using a question answering system based on sequence-to-sequence model,” in Procedia Computer Science, 2019, vol. 157, pp. 367–374, doi: \url{10.1016/j.procs.2019.08.179}.
+\bibitem{b23}N. P. Patel, D. R. Parikh, D. A. Patel, and R. R. Patel, “AI and Web-Based Human-Like Interactive University Chatbot (UNIBOT),” Proc. 3rd Int. Conf. Electron. Commun. Aerosp. Technol. ICECA 2019, pp. 148–150, 2019, doi: \url{10.1109/ICECA.2019.8822176}.
+\bibitem{b24}L. H. Su, T. Dang-Huy, T. Thi-Yen-Linh, N. Thi-Duyen-Ngoc, L. Bao-Tuyen, and N. Ha-Phuong-Truc, “Development of an AI Chatbot to Support Admissions and Career Guidance for Universities,” Int. J. Emerg. Multidiscip. Res., vol. 4, no. 2, pp. 11–17, 2020.
+\bibitem{b25}H. T. Hien, P. N. Cuong, L. N. H. Nam, H. L. T. K. Nhung, and L. D. Thang, “Intelligent assistants in higher-education environments: The FIT-EBOt, a chatbot for administrative and learning support,” ACM Int. Conf. Proceeding Ser., pp. 69–76, 2018, doi: \url{10.1145/3287921.3287937}.
+\bibitem{b26}W. El Hefny, Y. Mansy, M. Abdallah, and S. Abdennadher, “Jooka: A Bilingual Chatbot for University Admission,” Adv. Intell. Syst. Comput., vol. 1367 AISC, pp. 671–681, 2021, doi:\url{10.1007/978-3-030-72660-7_64}.
+\bibitem{b27}A. Stachowicz-Stanusch and W. Amann, “Artificial Intelligence At Universities in Poland.,” Organ. Manag. Q., vol. 42, no. 2, pp. 63–82, 2018, [Online]. Available: \url{http://10.0.113.191/1899-6116.2018.42.6\%\0Ahttp://search.ebscohost.com/login.aspx?direct=true&AuthType=sso&db=bth&AN=133706868&lang=es&site=ehost-live}.
+\bibitem{b28}Z. M. Khan, H. U. Rehman, M. Maqsood, and K. Mehmood, “Artificial Intelligence Based University Chatbot using Machine Learning,” Pakistan J. Eng. Technol., vol. 4, no. 2, pp. 108–112, 2021, [Online]. Available: \url{https://hpej.net/journals/pakjet/issue/view/78}.
+\bibitem{b29}J. A. Boeding, “How Ai-Powered Chatbots Are Being Adopted and Used By Higher Education Institutions To Improve the Student Experience By Scaling Professional Staff,” University of Pennsylvania, 2020.
+\end{thebibliography}
+
+%\vspace{12pt}
+%\color{red}
+%IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+\end{document}
