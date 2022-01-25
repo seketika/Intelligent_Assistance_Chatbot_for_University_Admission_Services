@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.22)  25 JAN 2022 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.22)  25 JAN 2022 12:11
 entering extended mode
 **./Intelligent_Assistance_Chatbot_for_University_Admission_Services.tex
 (Intelligent_Assistance_Chatbot_for_University_Admission_Services.tex
@@ -354,42 +354,57 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 d
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 5260) in paragraph at lines 43--45
+[]\OT1/ptm/m/n/10 Kemajuan ter-baru dalam teknologi telah men-dorong
+ []
+
+
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [1{C:/Users/Sendy Suryana/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] [2] [3]
-Underfull \hbox (badness 1412) in paragraph at lines 133--134
+]
+Underfull \hbox (badness 2426) in paragraph at lines 73--76
+[]\OT1/ptm/m/n/10 Penelitian yang men-gu-las op-ti-mal-isasi sis-tem layanan
+ []
+
+[2]
+Underfull \hbox (badness 1552) in paragraph at lines 88--89
+\OT1/ptm/m/n/10 pener-i-maan, tetapi juga bertin-dak se-ba-gai pe-nase-hat
+ []
+
+[3]
+Underfull \hbox (badness 1412) in paragraph at lines 115--116
 []\OT1/ptm/m/n/8 B. A. Shawar and E. Atwell, \Us-ing di-a-logue cor-pora to tra
 in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 \OT1/ptm/m/n/8 https : / / docs . oracle . com / es / solutions / learn-[]about
 -[]designing-[]chatbot /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 \OT1/ptm/m/n/8 Available:$https : / / www . researchgate . net / publication / 
 342248071[]An[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 \OT1/ptm/m/n/8 Improved[]Rapid[]Response[]Model[]for[]University[]Admission[]
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 145--146
+Underfull \hbox (badness 1496) in paragraph at lines 127--128
 \OT1/ptm/m/n/8 2018, [On-line]. Avail-able: $http : / / 10 . 0 . 113 . 191 / 18
 99-[]6116 . 2018 . 42 . 6 \OMS/cmsy/m/n/8 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 \OT1/ptm/m/n/8 % \OMS/cmsy/m/n/8 n \OT1/ptm/m/n/8 0Ahttp : / / search . ebscoho
 st . com / login . aspx ? direct = true & AuthType =
  []
@@ -410,13 +425,13 @@ Before submitting the final camera ready copy, remember to:
 
 ] (Intelligent_Assistance_Chatbot_for_University_Admission_Services.aux) ) 
 Here is how much of TeX's memory you used:
- 4745 strings out of 478864
- 71399 string characters out of 2844832
- 401525 words of memory out of 3000000
- 22617 multiletter control sequences out of 15000+600000
- 440934 words of font info for 99 fonts, out of 8000000 for 9000
+ 4741 strings out of 478864
+ 71367 string characters out of 2844832
+ 403198 words of memory out of 3000000
+ 22615 multiletter control sequences out of 15000+600000
+ 438103 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,66p,2270b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,8n,66p,2088b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/U
 sers/Sendy Suryana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
 :/Users/Sendy Suryana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -427,7 +442,7 @@ grams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Sendy Suryana/AppData/
 Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Sendy Suryana/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on Intelligent_Assistance_Chatbot_for_University_Admission_Servi
-ces.pdf (5 pages, 101804 bytes).
+ces.pdf (5 pages, 99139 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
